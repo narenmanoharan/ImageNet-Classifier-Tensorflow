@@ -1,4 +1,6 @@
-Technical Specifications
+*Technical Specifications*
+
+[![Build Status](https://travis-ci.org/narenkmanoharan/Set-Game-Implementation.svg?branch=master)](https://travis-ci.org/narenkmanoharan/Set-Game-Implementation)
 
 * Python 2.7 
 * TensorFlow 0.10.0
