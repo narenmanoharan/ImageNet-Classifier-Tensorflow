@@ -1,6 +1,8 @@
-*Technical Specifications*
+## ImageNet Classifier with TensorFlow
 
 [![Build Status](https://travis-ci.org/narenkmanoharan/Set-Game-Implementation.svg?branch=master)](https://travis-ci.org/narenkmanoharan/Set-Game-Implementation)
+
+*Technical Specifications*
 
 * Python 2.7 
 * TensorFlow 0.10.0
