@@ -22,7 +22,9 @@ http://www.robots.ox.ac.uk/~vgg/data/flowers/102/
 
 ### Initiate EC2 instance on AWS with the following specification
 
-g2.8x - 80GB SSD - 32 vCPU
+- g2.8x 
+- 80GB SSD 
+- 32 vCPU
 
 ### Installing initial dependencies
 
