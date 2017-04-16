@@ -1,6 +1,9 @@
 ## ImageNet Classifier with TensorFlow
 
-[![Build Status](https://travis-ci.org/narenkmanoharan/Set-Game-Implementation.svg?branch=master)](https://travis-ci.org/narenkmanoharan/Set-Game-Implementation)
+- Deep CNN with Alexnet for Classifying/Recognizing objects
+- Built using Python, TensorFlow, TFlearn and AWS EC2
+- Used g2.8x GPU instances to speed up the classification process
+- Built a model with an error rate of 6.2%
 
 *Technical Specifications*
 
