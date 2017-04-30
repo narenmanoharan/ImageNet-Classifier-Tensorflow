@@ -1,9 +1,10 @@
-## ImageNet Classifier with TensorFlow
+# ImageNet Classifier with TensorFlow
 
-- Deep CNN with Alexnet for Classifying/Recognizing objects
+- Deep CNN with AlexNet for Classifying/Recognizing objects
 - Built using Python, TensorFlow, TFlearn and AWS EC2
 - Used g2.8x GPU instances to speed up the classification process
 - Built a model with an error rate of 6.2%
+- Used factional max pooling with sparse CNN to improve accuracy
 
 *Technical Specifications*
 
@@ -13,15 +14,22 @@
 * CUDA 8
 * CuDnn v5
 
-Dataset Links
+### Convolutional Neural Network
 
-@ CIFAR 10 dataset
+![Cover](http://i.imgur.com/EjA0oSf.png)
 
-https://www.cs.toronto.edu/~kriz/cifar.html
+### AlexNet Classifier
 
-@ 102 Category Flower Dataset
+![alexnet2](http://i.imgur.com/OX5GW0E.png)
 
-http://www.robots.ox.ac.uk/~vgg/data/flowers/102/
+
+### Dataset Links
+
+[CIFAR 10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+[102 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/)
+
+## Executing the model
 
 ### Initiate EC2 instance on AWS with the following specification
 
@@ -31,7 +39,8 @@ http://www.robots.ox.ac.uk/~vgg/data/flowers/102/
 
 ### Installing initial dependencies
 
-```sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get -y dist-upgrade
 sudo apt-get install python
 sudo apt install python3-pip
@@ -91,6 +100,8 @@ https://developer.nvidia.com/cudnn
 ```
 python alex_net.py
 ```
+
+
 
 
 
